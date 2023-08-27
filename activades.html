@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <script src="utilidades.js" defer></script>
+    <title>Actividades y Juegos</title>
+</head>
+<body>
+    <header>
+        <h1>¡Bienvenidos a las Actividades y Juegos</h1>
+        <p>Descubre divertidas actividades para enriquecer tu experiencia.</p>
+        <nav class="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Regresar</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="actividades">
+        <h2 class="text">Actividades Destacadas</h2><br>
+        <div class="actividad">
+            <a href="https://es.educaplay.com/recursos-educativos/15848388-el_diario_de_ana_frank.html" target="_blank">
+            <img src="cruci.png" alt="Actividad 1"></a>
+            <h3>Crucigrama</h3>
+            <p>Para realizar el crucigrama darle click encima de la imagen</p>
+        </div>
+        <div class="contenedor">
+            <h1>¡Juego sobre Ana Frank!</h1>
+            <p>Selecciona la respuesta correcta para cada pregunta:</p>
+            <div class="pregunta" id="pregunta"></div>
+            <div class="opciones" id="opciones"></div>
+            <button id="siguiente" onclick="cargarSiguientePregunta()">Siguiente Pregunta</button>
+        </div>
+        <!-- Agrega más actividades aquí -->
+
+    </section>
+    
+    <footer>
+        <p>&copy;  2023 NICOLÁS SIERRA HENAO - 10A Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
